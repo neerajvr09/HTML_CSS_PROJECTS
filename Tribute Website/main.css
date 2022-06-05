@@ -10,11 +10,13 @@ body{
 }
 .container{
     width: 70%;
-    margin: auto;
+    max-width: 800px;
+    margin: 0 auto;
 }
 .hero{
     display: flex;
-    margin:3em auto; 
+    justify-content: space-between;
+    margin: 3em 0; 
     align-items: flex-end;
 }
 .hero-image{
