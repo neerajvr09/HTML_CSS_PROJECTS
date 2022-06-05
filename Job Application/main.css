@@ -20,7 +20,7 @@ body{
 }
 .form{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     margin-top: 0.75em;
 }
@@ -29,7 +29,6 @@ body{
     flex-direction: column;
 }
 input,
-textarea,
 select{
     border: 1px solid #ccc;
     padding: 4px;
@@ -41,7 +40,6 @@ label{
 input:focus {
     outline-color: red;
   }
-.address,
 .btn-control{
     grid-column-start: 1;
     grid-column-end: 3;
