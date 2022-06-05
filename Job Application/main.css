@@ -6,6 +6,9 @@
 body{
     background-color: #ccc;
 }
+.title{
+    font-size: 1.25em;
+}
 .container{
     background-color: white;
     margin: 2em auto;
@@ -19,11 +22,42 @@ body{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     gap: 20px;
+    margin-top: 0.75em;
 }
 .form-control{
     display: flex;
     flex-direction: column;
 }
+input,
+textarea,
+select{
+    border: 1px solid #ccc;
+    padding: 4px;
+    font-size: 0.75em;
+}
+label{
+    margin-bottom: 0.25em;
+}
+input:focus {
+    outline-color: red;
+  }
+.address,
+.btn-control{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.btn{
+    color: white;
+    background-color: red;
+    border-color: red;
+    border-radius: 10px;
+    padding: 6px 10px;
+    float: right;
+}
+
+
+
+
 
 
 
