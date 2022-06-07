@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto';
+}
+.hero{
+    background: url('images/developer.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+}
+.text-container{
+    color: white;
+    max-width: 900px;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 3em;
+}
+.lg_text{
+    font-size: 4rem;
+}
