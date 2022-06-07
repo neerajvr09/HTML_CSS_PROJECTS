@@ -24,3 +24,18 @@ body{
 .lg_text{
     font-size: 4rem;
 }
+.dark-section{
+    background-color: black;
+    padding:1.2em;
+}
+.dark-section h2{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 3rem;
+    text-align: center;
+}
+.dark-section span{
+    font-weight: 400;
+    font-size: 4rem;
+}
