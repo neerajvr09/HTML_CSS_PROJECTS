@@ -15,7 +15,9 @@ body {
   margin: 0 auto;
 }
 .nav,
-.hero {
+.hero,
+.features,
+.featured_item {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,6 +25,8 @@ body {
 button {
   border: none;
   padding: 0.5em;
+  cursor: pointer;
+  border-radius: 6px;
 }
 /* navigation styling  */
 nav {
@@ -39,7 +43,7 @@ nav {
 
 /* styling hero section  */
 .hero {
-  margin: 1em 0;
+  margin: 2em 0;
 }
 .hero_content {
   margin-left: 5em;
@@ -60,7 +64,23 @@ nav {
   margin-bottom: 1em;
 }
 .explore_btn {
-  background-color: #FFC066;
+  background-color: #ffc066;
   font-size: 1rem;
   font-weight: 600;
 }
+
+/* styling feature section  */
+.features {
+  margin: 4em 0;
+  padding-bottom: 2em;
+  border-bottom: 1px solid rgb(172, 162, 162);
+}
+.image_container + .text_container,
+.featured_item + .featured_item{
+  margin-left: 2em;
+}
+.image_container img {
+  width: 50px;
+  height: 50px;
+}
+
