@@ -11,22 +11,56 @@ body {
   line-height: 1.4;
 }
 .container {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
+}
+.nav,
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  border: none;
+  padding: 0.5em;
 }
 /* navigation styling  */
 nav {
   box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
   padding: 0 1em;
+  position: sticky;
 }
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.logo img {
+  width: 150px;
 }
-.logo img{
-    width: 150px;
+.bar_icon {
+  font-size: 2rem;
 }
-.bar_icon{
-    font-size: 2rem;
+
+/* styling hero section  */
+.hero {
+  margin: 1em 0;
+}
+.hero_content {
+  margin-left: 5em;
+}
+.tag {
+  margin-bottom: 1em;
+}
+.tag span {
+  padding: 0.2em;
+  background-color: green;
+  color: white;
+}
+.hero_content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 0.2em;
+}
+.hero_content p {
+  margin-bottom: 1em;
+}
+.explore_btn {
+  background-color: #FFC066;
+  font-size: 1rem;
+  font-weight: 600;
 }
