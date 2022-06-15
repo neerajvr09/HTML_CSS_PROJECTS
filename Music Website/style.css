@@ -18,6 +18,7 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.4;
   font-weight: 300;
+  color: var(--body);
 }
 .container {
   max-width: 1100px;
@@ -49,4 +50,24 @@ nav {
 .nav ul li {
   margin-left: 1em;
 }
+/* intro section  */
+.intro{
+    background-image: url('images/hero_image.png');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.intro__text{
+    text-align: center;
 
+}
+.intro__text h1{
+    font-size: 6rem;
+    margin-bottom: .1em;
+}
+.intro__text h3{
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: .5em;
+}
