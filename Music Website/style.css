@@ -73,7 +73,7 @@ nav {
     margin-bottom: .1em;
 }
 .intro__text h3{
-    font-size: 2rem;
+  font-size: 2rem;
     font-weight: 100;
     margin-bottom: .5em;
 }
@@ -129,5 +129,19 @@ text-align: center;
 .about_music p{
   width: 70%;
   font-size: .85rem;
+  margin: 2em auto;
+}
+/* styling video section  */
+.video_section{
+  background-image: url('images/video.png');
+  background-size: cover;
+  margin-top: 2em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  min-height: 800px;
+}
+.video_section p{
+  width: 80%;
   margin: 2em auto;
 }
