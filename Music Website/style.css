@@ -102,7 +102,7 @@ nav {
   margin: .7em auto;
   font-weight: 300;
 }
-.trial_btn{
+.primary_btn{
   margin: .7em 0;
   background-color: var(--red600);
 }
@@ -115,4 +115,19 @@ nav {
   margin-top: -400px;
   position: relative;
   top: 400px;
+}
+/* styling music intro  */
+.about_music{
+margin-top: 400px;
+color: black;
+text-align: center;
+}
+.secondary_btn{
+  background-color: var(--purple500);
+  margin-bottom: 2em;
+}
+.about_music p{
+  width: 70%;
+  font-size: .85rem;
+  margin: 2em auto;
 }
