@@ -145,3 +145,18 @@ text-align: center;
   width: 80%;
   margin: 2em auto;
 }
+/* styling sift section  */
+.gift_section{
+  color: black;
+}
+.gift_section .container{
+  display: flex;
+  justify-content: space-between;
+  margin: 6em auto;
+}
+.gift_content{
+  margin-left: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
