@@ -6,7 +6,7 @@
   --purple600: #1b0058;
   --red600: #dc0000;
   --body: #f9f6ff;
-  --max-width: 1200px;
+  --max-width: 1100px;
 }
 * {
   margin: 0;
@@ -22,7 +22,7 @@ body {
   scroll-behavior: smooth;
 }
 .container {
-  max-width: 1100px;
+  max-width: var(--max-width);
   margin: 0 auto;
 }
 ul {
