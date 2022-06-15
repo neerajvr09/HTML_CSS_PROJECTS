@@ -30,6 +30,12 @@ ul{
 a{
     color: white;
 }
+button{
+  padding: 1em;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
 /* styling nav  */
 nav {
   background-color: var(--purple300);
@@ -70,4 +76,43 @@ nav {
     font-size: 2rem;
     font-weight: 100;
     margin-bottom: .5em;
+}
+.intro__text p{
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* music section  */
+.music_section{
+  background-color: var(--purple500);
+  padding: 1.75em 0;
+}
+.music_text{
+  text-align: center;
+}
+.music_text span{
+  margin-right: .5em;
+}
+.music_text h3{
+  font-weight: 400;
+  margin: .7em 0;
+}
+.music_text p{
+  width: 75%;
+  margin: .7em auto;
+  font-weight: 300;
+}
+.trial_btn{
+  margin: .7em 0;
+  background-color: var(--red600);
+}
+.music_text h4{
+  margin: 1em 0;
+  font-size: .9rem;
+  font-weight: 100;
+}
+.music_img{
+  margin-top: -400px;
+  position: relative;
+  top: 400px;
 }
