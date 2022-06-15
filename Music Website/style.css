@@ -24,13 +24,13 @@ body {
   max-width: 1100px;
   margin: 0 auto;
 }
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
-a{
-    color: white;
+a {
+  color: white;
 }
-button{
+button {
   padding: 1em;
   color: white;
   border: none;
@@ -57,83 +57,82 @@ nav {
   margin-left: 1em;
 }
 /* intro section  */
-.intro{
-    background-image: url('images/hero_image.png');
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    align-items: center;
+.intro {
+  background-image: url("images/hero_image.png");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
-.intro__text{
-    text-align: center;
-
+.intro__text {
+  text-align: center;
 }
-.intro__text h1{
-    font-size: 6rem;
-    margin-bottom: .1em;
+.intro__text h1 {
+  font-size: 6rem;
+  margin-bottom: 0.1em;
 }
-.intro__text h3{
+.intro__text h3 {
   font-size: 2rem;
-    font-weight: 100;
-    margin-bottom: .5em;
+  font-weight: 100;
+  margin-bottom: 0.5em;
 }
-.intro__text p{
+.intro__text p {
   width: 70%;
   margin: 0 auto;
 }
 
 /* music section  */
-.music_section{
+.music_section {
   background-color: var(--purple500);
   padding: 1.75em 0;
 }
-.music_text{
+.music_text {
   text-align: center;
 }
-.music_text span{
-  margin-right: .5em;
+.music_text span {
+  margin-right: 0.5em;
 }
-.music_text h3{
+.music_text h3 {
   font-weight: 400;
-  margin: .7em 0;
+  margin: 0.7em 0;
 }
-.music_text p{
+.music_text p {
   width: 75%;
-  margin: .7em auto;
+  margin: 0.7em auto;
   font-weight: 300;
 }
-.primary_btn{
-  margin: .7em 0;
+.primary_btn {
+  margin: 0.7em 0;
   background-color: var(--red600);
 }
-.music_text h4{
+.music_text h4 {
   margin: 1em 0;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: 100;
 }
-.music_img{
+.music_img {
   margin-top: -400px;
   position: relative;
   top: 400px;
 }
 /* styling music intro  */
-.about_music{
-margin-top: 400px;
-color: black;
-text-align: center;
+.about_music {
+  margin-top: 400px;
+  color: black;
+  text-align: center;
 }
-.secondary_btn{
+.secondary_btn {
   background-color: var(--purple500);
   margin-bottom: 2em;
 }
-.about_music p{
+.about_music p {
   width: 70%;
-  font-size: .85rem;
+  font-size: 0.85rem;
   margin: 2em auto;
 }
 /* styling video section  */
-.video_section{
-  background-image: url('images/video.png');
+.video_section {
+  background-image: url("images/video.png");
   background-size: cover;
   margin-top: 2em;
   text-align: center;
@@ -141,22 +140,45 @@ text-align: center;
   align-items: center;
   min-height: 800px;
 }
-.video_section p{
+.video_section p {
   width: 80%;
   margin: 2em auto;
 }
 /* styling sift section  */
-.gift_section{
+.gift_section {
   color: black;
 }
-.gift_section .container{
+.gift_section .container {
   display: flex;
   justify-content: space-between;
   margin: 6em auto;
 }
-.gift_content{
+.gift_content {
   margin-left: 2em;
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+/* footer  */
+.footer_upper {
+  background-color: var(--purple600);
+  padding: 20px;
+}
+.footer_upper .container {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+.footer_upper h4 {
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+  margin-bottom: 10px;
+}
+.footer_lower {
+  background-color: var(--purple300);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  color: white;
 }
