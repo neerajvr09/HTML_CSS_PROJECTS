@@ -23,9 +23,13 @@ button {
 .logo,
 .search,
 .mic,
-.side_nav
- {
+.side_nav {
   display: flex;
+}
+.bars,
+.side-icons,
+button {
+  cursor: pointer;
 }
 .main-container {
   width: 90%;
