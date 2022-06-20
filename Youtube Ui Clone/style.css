@@ -22,7 +22,6 @@ button {
   display: flex;
 }
 aside {
-  padding: 1.2em 0.5em;
   text-align: center;
 }
 .bars,
@@ -31,11 +30,15 @@ button {
   cursor: pointer;
 }
 .bars {
-  margin-bottom: 2.5em;
+  padding: .9em .7em;
+  margin-bottom: .5em;
 }
 .side-icons {
-  margin: 2em 0;
+  padding: 1em .9em;
   font-size: 0.625rem;
+}
+.side-icons:hover{
+  background-color: rgba(240, 233, 233, 0.795);
 }
 .nav {
   padding: 0.5em 0;
