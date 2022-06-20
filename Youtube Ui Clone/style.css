@@ -31,9 +31,6 @@ button {
 button {
   cursor: pointer;
 }
-.main-container {
-  width: 90%;
-}
 aside {
   padding: 1.2em 0.5em;
   text-align: center;
@@ -47,7 +44,6 @@ aside {
 .side-icons p {
   font-size: 0.625rem;
 }
-
 .nav {
   padding: 0.5em 0;
   border-bottom: 0.5px solid #ccc;
@@ -103,6 +99,12 @@ aside {
 .side_nav--icon + .side_nav--icon {
   margin-left: 1.5em;
 }
+.side_nav--profile-icon img {
+  width: 30px;
+}
+.side_nav--profile-icon {
+  margin: 0 2em;
+}
 .tags {
   border-bottom: 0.5px solid #ccc;
   padding: 1em;
@@ -114,4 +116,42 @@ aside {
 .tags .dark {
   background-color: black;
   color: white;
+}
+
+/* section  */
+section {
+  background-color: rgba(243, 237, 237, 0.89);
+  padding: 0.5em 0.5em;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card {
+  max-width: 255px;
+}
+.thumbnail_img {
+  width: 250px;
+}
+.info,
+.info_content {
+  display: flex;
+}
+.info_img {
+  margin: 0 0.5em;
+}
+.info_text h3 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.info_text h4 {
+  font-size: 0.8rem;
+  margin-top: 0.5em;
+  font-weight: 300;
+}
+.info_text span {
+  font-size: 0.8rem;
+  display: inline-block;
+  margin-bottom: 1em;
 }
