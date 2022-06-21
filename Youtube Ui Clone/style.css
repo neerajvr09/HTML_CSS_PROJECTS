@@ -18,9 +18,14 @@ button {
   border: none;
   padding: 0.7em 0.9em;
 }
+.main-container{
+ margin-left: 4.9em;
+}
 header{
   width: 93.7%;
   position: fixed;
+  right: 0;
+  /* left: 0; */
   background-color: white;
 }
 .row {
@@ -46,9 +51,6 @@ button {
 .side-icons {
   padding: 1em 0.9em;
   font-size: 0.625rem;
-}
-.main-container{
- margin-left: 4.9em;
 }
 .nav {
   padding: 0.5em 0;
@@ -126,14 +128,16 @@ button {
 
 /* section  */
 .video-section {
-  background-color: rgba(243, 236, 236, 0.89);
+  background-color: #F0F0F0;
   padding: 0.5em 0.5em;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 10em;
+  margin-top: 8em;
+  padding-top: 1.5em;
+  padding-left: 1.5em;
 }
 .card {
   max-width: 255px;
+  margin-right: auto;
 }
 .thumbnail_img {
   width: 250px;
